@@ -1,0 +1,74 @@
+.Ilova{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #E5E5E5;
+}
+.Ilova_container{
+    width:80%;
+    height: 40vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Ilova_type{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+.Ilova_img{
+    width: 34%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 1px;
+    border: none;
+    outline: none;
+
+  
+}
+.Ilova_img img{
+    width: 250px;
+    height: 350px;
+    border: none;
+}
+.Ilova_right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+.Ilova_right a{
+    text-decoration: none;
+    list-style: none;
+}
+.Ilova_right a .A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    color: black;
+    border: none;
+    gap: 5px;
+    padding: 20px 30px;
+
+}
+.Ilova_right a .A:hover{
+    background-color: #F89F28;
+    color: white;
+    
+}

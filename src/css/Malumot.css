@@ -1,0 +1,125 @@
+.Malumot_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    /* margin-top: 200px; */
+    gap: 30px;
+    background-color: #E5E5E5;
+}
+.malumot_card1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+    border-radius: 30px;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.malumot_card1 .icons{
+width: 80px;
+height: 80px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+border-top-left-radius: 10px;
+background-color: #C6F9E6;
+color:#1CCE8E;
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.malumot_card2{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.malumot_card2 .icons{
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    background-color:#FCEFC4;
+    color:#EAB731;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.malumot_card3{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 40px;
+
+}
+.malumot_card3 .icons{
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    background-color:#D7E5FF;
+    color:#004DE2;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .malumot_card3 p{
+        width: 250px;
+
+    }
+
+.malumot_card4{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.malumot_card4 .icons{
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    background-color:#FFDBF5;
+    color:#DB0EA3;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+

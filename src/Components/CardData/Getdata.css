@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cardcontainer1 {
+    display: flex;
+    width: 600px;
+    height: 480px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   .cardcontainer {
+    width: 512px;
+    height: 400px;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardcontainer  .card-content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+  }
+   
+ .card-content img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+  } 
+  
+  .card-content .cards1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .carddata-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .carddata-type span {
+    width: 150px;
+    height: 50px;
+    background-color: #ec52a5;
+    color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-card-data {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background: none;
+    border: 2px solid blue;
+  }
+  
+  .btn-card-data:hover{
+   background-color:orange;
+   color: white;
+   border: none;
+   outline: none;
+  }
+  
+  .cards a{
+   display: flex;
+   text-decoration: none;
+  }
+  
+  
+  
+  .carddata-type span:nth-child(1) {
+    background: none;
+    border: 2px solid orange;
+    color: black;
+  }
+  
+  .carddata-type span p {
+    font-size: 1.5rem;
+    color: #fff;
+  } 
